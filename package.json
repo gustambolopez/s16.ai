@@ -1,0 +1,19 @@
+{
+  "name": "s16.ai",
+  "version": "1.0.0",
+  "description": "third party ai api tool.",
+  "main": "index.min.js",
+  "scripts": {
+    "start": "node index.min.js"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "s16dih",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
