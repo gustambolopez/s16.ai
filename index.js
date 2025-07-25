@@ -32,7 +32,7 @@ app.get('/generate', async (req, res) => {
   let selectedModel = model
   let responseText = ''
   const startTime = Date.now()
- // propmpt handlers also if the users dont put a model it uses whatever model i chose lmao 
+ // if the user dont put a model it uses whatever model i chose lmao 
   try {
     if (type === 'openrouter') {
       const url = 'https://openrouter.ai/api/v1/chat/completions'
@@ -49,7 +49,7 @@ app.get('/generate', async (req, res) => {
           'Authorization': `Bearer ${key}`,
           'Content-Type': 'application/json',
           'HTTP-Referer': 'http://localhost:3000',
-          'X-Title': 'node ai api'
+          'X-Title': 's16.ai'
         },
         body: JSON.stringify(requestBody)
       })
