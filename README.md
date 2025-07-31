@@ -1,4 +1,5 @@
 # s16.ai 
+[DEPRECATED] shitty proxy for ai api services like groq, openerouter and gemini (barebones for testing do not use it its highly recomended you use the official api services)
 
 A third party tool for proxy sites that aims to be a potential alternative to direct api key usage providing clean json responses with almost 50 models and blazing speeds
 
